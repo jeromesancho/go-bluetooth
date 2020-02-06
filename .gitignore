@@ -1,6 +1,4 @@
 
-/bluez/profile/*/gen_*
-
 /go-bluetooth
 logs/*.log
 debug
