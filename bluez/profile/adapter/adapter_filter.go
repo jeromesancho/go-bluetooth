@@ -1,6 +1,6 @@
 package adapter
 
-import "github.com/muka/go-bluetooth/util"
+import "github.com/jeromesancho/go-bluetooth/util"
 
 const (
 	DiscoveryFilterTransportAuto  = "auto"

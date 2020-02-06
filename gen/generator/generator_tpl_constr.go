@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/muka/go-bluetooth/gen"
-	"github.com/muka/go-bluetooth/gen/override"
+	"github.com/jeromesancho/go-bluetooth/gen"
+	"github.com/jeromesancho/go-bluetooth/gen/override"
 )
 
 var defaultService = "org.bluez"

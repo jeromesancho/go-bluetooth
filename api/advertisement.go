@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/godbus/dbus"
-	"github.com/muka/go-bluetooth/bluez"
-	"github.com/muka/go-bluetooth/bluez/profile/advertising"
+	"github.com/jeromesancho/go-bluetooth/bluez"
+	"github.com/jeromesancho/go-bluetooth/bluez/profile/advertising"
 	log "github.com/sirupsen/logrus"
 )
 

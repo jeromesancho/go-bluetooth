@@ -2,7 +2,7 @@ package obex
 
 import (
 	"github.com/godbus/dbus"
-	"github.com/muka/go-bluetooth/bluez"
+	"github.com/jeromesancho/go-bluetooth/bluez"
 	log "github.com/sirupsen/logrus"
 )
 
