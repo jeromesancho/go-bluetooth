@@ -1,4 +1,4 @@
-module github.com/muka/go-bluetooth
+module github.com/jeromesancho/go-bluetooth
 
 go 1.13
 
