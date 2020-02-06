@@ -26,7 +26,7 @@ High level features supported:
 
 - [x] Client code generation from bluez documentation
 - [x] Shell wrappers for `rfkill`, `btmgmt`, `hciconfig`, `hcitool`
-- [x] An `hci` basic API (from a fork of [go-ble/ble](https://github.com/muka/ble))
+- [x] An `hci` basic API (from a fork of [go-ble/ble](https://github.com/jeromesancho/ble))
 - [x] Expose bluetooth service from go code
 - [x] Pairing and authentication support (via agent)
 - [x] Basic beaconing (iBeacon and Eddystone)

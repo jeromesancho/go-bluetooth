@@ -1,6 +1,6 @@
 package hci
 
-import "github.com/muka/ble/linux/hci/socket"
+import "github.com/jeromesancho/ble/linux/hci/socket"
 
 //Down turn down an HCI device
 func Down(adapterID int) error {

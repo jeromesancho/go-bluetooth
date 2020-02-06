@@ -3,7 +3,7 @@ package service
 import (
 	"testing"
 
-	"github.com/muka/go-bluetooth/api"
+	"github.com/jeromesancho/go-bluetooth/api"
 	log "github.com/sirupsen/logrus"
 )
 
