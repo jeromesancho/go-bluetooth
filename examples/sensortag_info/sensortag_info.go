@@ -14,7 +14,7 @@ import (
 	"fmt"
 
 	"github.com/muka/go-bluetooth/api"
-	"github.com/muka/go-bluetooth/bluez/profile/battery"
+	//"github.com/muka/go-bluetooth/bluez/profile/battery"
 	"github.com/muka/go-bluetooth/devices/sensortag"
 	log "github.com/sirupsen/logrus"
 )
@@ -64,7 +64,7 @@ func Run(address, adapterID string) error {
 	log.Debug("HardwareVersion: ", devInfo.HardwareVersion)
 	log.Debug("Manufacturer: ", devInfo.Manufacturer)
 	log.Debug("Model: ", devInfo.Model)
-
+	/*
 	batt, err := battery.NewBattery1(sensorTag.Device1.Path())
 	if err != nil {
 		log.Errorf("Cannot load battery profile: %s", err)
@@ -76,7 +76,7 @@ func Run(address, adapterID string) error {
 			log.Debugf("Battery: %d%%", perc)
 		}
 	}
-
+	*/
 	err = sensorTag.Temperature.StartNotify()
 	if err != nil {
 		return err
